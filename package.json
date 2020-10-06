@@ -2,12 +2,31 @@
   "name": "hackathon-macdonalgue",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "homepage": "https://github.com/kaonL0/hackathon-macdonalgue#readme",
+  "author": "loic.druesne",
+  "license": "ISC",
+  "keywords": [
+    "algues",
+    "hackathon",
+    "ocean"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "ng build",
-    "heroku-postbuild": "echo No task for now",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test-origin": "echo \"Error: no test specified\" && exit 1",
+    "start-origin": "node index.js",
+    "build-origin": "ng build",
+    "heroku-postbuild": "react-scripts start",
     "heroku-prebuild-info": "echo Thirs runs before Heroku installs dependencies.",
     "heroku-postbuild-info": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
     "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies."
@@ -16,20 +35,27 @@
     "type": "git",
     "url": "git+https://github.com/kaonL0/hackathon-macdonalgue.git"
   },
-  "keywords": [
-    "algues",
-    "hackathon",
-    "ocean"
-  ],
-  "author": "loic.druesne",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaonL0/hackathon-macdonalgue/issues"
   },
-  "homepage": "https://github.com/kaonL0/hackathon-macdonalgue#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "engines": {
     "node": "12.x",
     "npm": "6.x",
     "yarn": "1.x"
-  }
+  },
 }
