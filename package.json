@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "build": "ng build",
-    "heroku-postbuild": "echo 'ng build --prod' don't care",
-    "heroku-prebuild-info": "echo This runs before Heroku installs dependencies.",
+    "heroku-postbuild": "echo No task for now",
+    "heroku-prebuild-info": "echo Thirs runs before Heroku installs dependencies.",
     "heroku-postbuild-info": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
     "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies."
   },
