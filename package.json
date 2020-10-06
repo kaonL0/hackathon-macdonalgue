@@ -9,6 +9,7 @@
     "hackathon",
     "ocean"
   ],
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -23,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test-origin": "echo \"Error: no test specified\" && exit 1",
-    "start-origin": "node index.js",
+    "start-origin": "node src/index.js",
     "build-origin": "ng build",
     "heroku-postbuild": "react-scripts start",
     "heroku-prebuild-info": "echo Thirs runs before Heroku installs dependencies.",
