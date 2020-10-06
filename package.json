@@ -1,0 +1,35 @@
+{
+  "name": "hackathon-macdonalgue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod",
+    "heroku-prebuild-info": "echo This runs before Heroku installs dependencies.",
+    "heroku-postbuild-info": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
+    "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaonL0/hackathon-macdonalgue.git"
+  },
+  "keywords": [
+    "algues",
+    "hackathon",
+    "ocean"
+  ],
+  "author": "loic.druesne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaonL0/hackathon-macdonalgue/issues"
+  },
+  "homepage": "https://github.com/kaonL0/hackathon-macdonalgue#readme",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x",
+    "yarn": "1.x"
+  }
+}
