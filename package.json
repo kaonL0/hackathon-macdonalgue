@@ -2,7 +2,6 @@
   "name": "hackathon-macdonalgue",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/kaonL0/hackathon-macdonalgue#readme",
   "author": "loic.druesne",
   "license": "ISC",
   "keywords": [
@@ -31,13 +30,6 @@
     "heroku-postbuild-info": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
     "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaonL0/hackathon-macdonalgue.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kaonL0/hackathon-macdonalgue/issues"
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -57,5 +49,5 @@
     "node": "12.x",
     "npm": "6.x",
     "yarn": "1.x"
-  },
+  }
 }
