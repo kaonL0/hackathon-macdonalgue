@@ -1,0 +1,11 @@
+{
+    "key": "specie-002",
+    "name": "algue 2",
+    "genre": "c'est la famille 2",
+    "description": "machin2 machin2",
+    "images": [
+        "image-001.png",
+        "image-002.png",
+        "image-003.png"
+    ]
+}
