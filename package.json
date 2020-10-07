@@ -17,21 +17,19 @@
     "node-fetch": "^2.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test-origin": "echo \"Error: no test specified\" && exit 1",
-    "start-origin": "node src/index.js",
-    "build-origin": "ng build",
-    "heroku-postbuild": "react-scripts start",
+    "create:json:species": "node ./scripts/createSpeciesJSON.js",
+    "heroku-postbuild": "serve -s build",
     "heroku-prebuild-info": "echo Thirs runs before Heroku installs dependencies.",
     "heroku-postbuild-info": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
     "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies.",
-    "create:json:species": "node ./scripts/createSpeciesJSON.js"
   },
   "eslintConfig": {
     "extends": "react-app"
