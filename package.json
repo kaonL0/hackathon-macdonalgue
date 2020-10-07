@@ -29,7 +29,7 @@
     "heroku-postbuild": "serve -s build",
     "heroku-prebuild-info": "echo Thirs runs before Heroku installs dependencies.",
     "heroku-postbuild-info": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-    "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies.",
+    "heroku-cleanup-info": "echo This runs after Heroku prunes and caches dependencies."
   },
   "eslintConfig": {
     "extends": "react-app"

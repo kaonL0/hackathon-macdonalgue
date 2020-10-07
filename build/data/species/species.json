@@ -1,0 +1,19 @@
+{
+  "author": "LDR",
+  "version": "1.0.0",
+  "url": "http://127.0.0.1:8080/data/species/species.json",
+  "species": [
+    {
+      "key": "specie-001",
+      "name": "algue1",
+      "genre": "c'est la famille",
+      "url": "http://127.0.0.1:8080/data/species/specie-001/metadata.json"
+    },
+    {
+      "key": "specie-002",
+      "name": "algue 2",
+      "genre": "c'est la famille 2",
+      "url": "http://127.0.0.1:8080/data/species/specie-002/metadata.json"
+    }
+  ]
+}
